@@ -1,0 +1,49 @@
+#project {
+    width: 100%;
+    height: 705px;
+    margin: auto;
+    background-color:aliceblue;
+    
+    
+}
+
+#my-projects {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    width: 100%;
+    height: 91%;
+}
+
+#my-projects img {
+    width: 90%;
+    height: 40%;
+    margin-left: 24px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 2px #746b74cf;
+}
+
+#my-projects p {
+    margin: 40px;
+    font-size: 17px;
+    font-weight: 300;
+    color:black;
+}
+
+#my-projects a {
+    margin-left: 45px;
+    position: relative;
+    bottom: -35px;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 8px;
+    background: #6da5d6;
+    color: white;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+#my-projects a:hover {
+    background-color: aliceblue;
+    border: 3px solid #6da5d6;
+    color: #6da5d6;
+    box-shadow: none;
+}

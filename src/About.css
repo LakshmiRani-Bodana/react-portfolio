@@ -1,0 +1,30 @@
+#about {
+    width: 100%;
+    height: 705px;
+    margin: auto;
+    background-color:aliceblue;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#about_photo {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Uv2L6H1Q9oDnYdZOegYv5xCGCmNR8VZ74w&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-x: -226px; */
+    width: 71%;
+    height: 52%;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: -7px 11px 10px 2px #0000008c;
+}
+  
+#about-content {
+    margin-top: 125px;
+}
+
+.skill {
+    width: 55px;
+    border-radius: 10px;
+    box-shadow: -2px 4px 8px 3px #01010199;
+}
